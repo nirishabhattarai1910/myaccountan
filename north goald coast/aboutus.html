@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="navlinks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+   
+</head>
+<body>
+    
+
+        <!-- navlinks -part -->
+        <section>
+            <div class="navbar flex between">
+                <div class="hamburger">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="navlink-left-logo flex between">
+                    <div class="left-logo">
+                        <!-- Logo source updated to your uploaded image -->
+                        <img src="image/logo.jpg" alt="main-logo">
+                    </div>
+
+                    <!-- Desktop Navigation Links -->
+                    <ul class="navlinks flex between">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li class="dropdown">
+                            <a class="flex" href="service.html">Services<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="#">Business Advisory Services</a></li>
+                                <li><a href="#">Online BAS and Bookkeeping</a></li>
+                                <li><a href="#">Taxation Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a class="flex" href="#">New Clients<i class="fa-solid fa-angle-down arrow"></i></a>
+                            <ul class="sub-menu">
+                                <li><a href="#">New Client Onboarding</a></li>
+                                <li><a href="#">Client Resources</a></li>
+                                <li><a href="#">FAQs for New Clients</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="contact us.html">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="right-logo">
+                    <p>North Gold Coast Account<br> is a CPA Practise</p>
+                    <!-- Placeholder image for CPA logo (you can replace this with your actual CPA logo if available) -->
+                    <img src="image/CPA_PP_RGB.jpeg" alt="logo-left">
+                </div>
+            </div>
+        </section>
+
+        <!-- Mobile Menu Overlay -->
+        <div class="mobile-menu-overlay"></div>
+
+        <!-- Mobile Navigation Menu (hidden by default) -->
+        <ul class="mobile-navlinks">
+            <li class="close-btn"><i class="fa-solid fa-times"></i></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li class="dropdown">
+                <a class="flex" href="service.html">Services<i class="fa-solid fa-angle-down arrow"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="#">Business Advisory Services</a></li>
+                    <li><a href="#">Online BAS and Bookkeeping</a></li>
+                    <li><a href="#">Taxation Services</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="flex" href="#">New Clients<i class="fa-solid fa-angle-down arrow"></i></a>
+                <ul class="sub-menu">
+                    <li><a href="#">New Client Onboarding</a></li>
+                    <li><a href="#">Client Resources</a></li>
+                    <li><a href="#">FAQs for New Clients</a></li>
+                </ul>
+            </li>
+            <li><a href="#">News</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+        </ul>
+    </header>
+
+
+
+     <section class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="content-container">
+            <h1 class="main-heading">About Us</h1>
+            <p class="sub-text">
+                <a href="index.html">Home</a> / <strong><a href="aboutus.html">About Us</a></strong>
+            </p>
+        </div>
+    </section>
+
+
+
+     <!-- Why Choose Us Section -->
+    <section class="why-choose-us-section">
+        <div class="image-column">
+            <img src="image/vertical.jpg" alt="Professional Man">
+        </div>
+        <div class="content-column">
+            <h2 class="section-title">Why choose us</h2>
+            <p class="section-description">North Gold Coast Accountants is your trusted local firm serving the North Gold Coast community.We specialise in comprehensive taxation services for individuals, companies, trusts, and self-managed superannuation funds.North Gold Coast Accountants offers a full suite of accounting services, including personal and business tax returns. Our dedicated team delivers exceptional customer service that stands out in the industry.Our mission at North Gold Coast Accountants is to positively impact our clients' lives by understanding their passions, goals, and how we can help them achieve financial success.</p>
+
+            <div class="reason-card">
+                <i class="fa-solid fa-chart-line icon"></i>
+                <div class="text-content">
+                    <h4>Tax Expertise</h4>
+                    <p>Gain access to professional knowledge that ensures accurate tax planning, compliance, and maximum deductions.</p>
+                </div>
+            </div>
+
+            <div class="reason-card">
+                <i class="fa-solid fa-dollar-sign icon"></i>
+                <div class="text-content">
+                    <h4>Cost Efficiency</h4>
+                    <p>Optimize your finances by reducing unnecessary expenses and improving resource allocation.</p>
+                </div>
+            </div>
+
+            <div class="reason-card">
+                <i class="fa-solid fa-clock icon"></i>
+                <div class="text-content">
+                    <h4>Time Savings</h4>
+                    <p>Free up valuable hours by streamlining financial processes and letting experts handle complex tasks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- New Section: Features -->
+    <section class="features-section">
+        <div class="feature-card">
+            <div class="icon-container">
+                <span class="number">01</span>
+                <i class="fa-solid fa-clock"></i> <!-- Changed to clock for 24/7 support -->
+            </div>
+            <h3>24/7 Support</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos fuga aut quia deserunt officia nesciunt fugit iure ex minus libero.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon-container">
+                <span class="number">02</span>
+                <i class="fa-solid fa-star"></i> <!-- Changed to star for customer satisfaction -->
+            </div>
+            <h3> Customer Satisfaction</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, corporis unde rem optio itaque aperiam aut incidunt ut voluptates consequuntur!</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon-container">
+                <span class="number">03</span>
+                <i class="fa-solid fa-comments-dollar"></i> <!-- Changed to comments-dollar for tax advice -->
+            </div>
+            <h3>Unlimited Tax advice</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae provident distinctio quaerat consectetur accusamus veniam porro amet ea magni architecto?</p>
+        </div>
+    </section>
+
+
+     <!-- Our Team Section (New Section) -->
+    <section class="our-team-section">
+        <div class="left-column">
+            <span class="section-subtitle">Our Team</span>
+            <h2 class="section-title">Our finance expert team members</h2>
+            <!-- Removed "View All Team Members" link as per user request -->
+        </div>
+        <div class="team-members-container">
+            <div class="team-member-card">
+                <div class="image-wrapper">
+                    <img src="image/vertical.jpg" alt="Marietta Collier">
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <h3>Marietta Collier</h3>
+                <p>CEO</p>
+            </div>
+            <div class="team-member-card">
+                <div class="image-wrapper">
+                    <img src="image/smiling professional.jpg" alt="Michael Goldsmith">
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <h3>Michael Goldsmith</h3>
+                <p>CFO</p>
+            </div>
+            <div class="team-member-card">
+                <div class="image-wrapper">
+                    <img src="image/vertical.jpg" alt="Patricia Moreno">
+                    <div class="social-icons">
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <h3>Patricia Moreno</h3>
+                <p>COO</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!-- Footer Section (New Section) -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <div class="logo-footer">
+                    <img src="image/logo.jpg" alt="Taks Logo">
+                </div>
+                <p>Sign Up For Our Newsletter</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address">
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Business Advisory Services</a></li>
+                    <li><a href="#">Online BAS and Bookkeeping</a></li>
+                    <li><a href="#">Taxation Services</a></li>
+                    <li><a href="#">Global Employer Services</a></li>
+                    <li><a href="#">Personal Income Tax</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">New Clients</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column contact-info">
+                <h3>Contact Us</h3>
+                <!-- Removed <br> tag for single-line display -->
+                <p><strong>Location:</strong> the Gold Coast Crown Colony</p>
+                <p><strong>Email:</strong> <span>taks@gmail.com</span></p>
+                <p><strong>Phone:</strong> <span>+1 664 248 1357</span></p>
+                <p><strong>Mon - Fri:</strong> <span>08:00am - 07:00pm</span></p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p class="copyright">©  2025 North Gold Coast Accountants <span></span></p>
+            <div class="social-links-bottom">
+                <a href="https://www.facebook.com/profile.php?id=61578131939865" aria-label="Facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="whatsapp"><i class="fab fa-whatsapp"></i></a>
+                
+                <a href="https://www.linkedin.com/in/riteshghimirey/" aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="script.js">
+
+    </script>
+    </body>
+    </html>
